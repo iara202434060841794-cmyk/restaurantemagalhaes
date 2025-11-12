@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Restaurante Magalhães — Liberdade, Belo Horizonte</title>
+<meta name="description" content="Restaurante Magalhães LTDA — Comida caseira, marmitas e pratos executivos na Liberdade, Belo Horizonte. Peça pelo WhatsApp ou venha nos visitar." />
+
+<!-- Structured Data (Restaurant) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Restaurant",
+  "name":"Restaurante Magalhães",
+  "legalName":"Restaurante Magalhaes LTDA",
+  "url":"https://REPLACE_SEU_DOMINIO.com",
+  "telephone":"+55REPLACE_TELEFONE_INTERNACIONAL",
+  "email":"REPLACE_SEU_EMAIL@example.com",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Rua Boaventura, 1554, Loja",
+    "addressLocality":"Liberdade",
+    "addressRegion":"MG",
+    "postalCode":"31270-310",
+    "addressCountry":"BR"
+  },
+  "servesCuisine":["Brasileira","Caseira"],
+  "priceRange":"R$",
+  "openingHours":"Mo-Su 10:00-22:00"
+}
+</script>
+
+<style>
+:root{
+  --bg:#fffaf6; --primary:#8a2b1f; --accent:#d9745a; --muted:#6b6b6b; --card:#fff; --cta:#25d366;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#111;line-height:1.5}
+header{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;padding:2rem 1rem;text-align:center}
+header h1{margin:0;font-size:1.9rem}
+header p{margin:.4rem 0 0;color:rgba(255,255,255,0.95)}
+.cta-row{margin-top:1rem;display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap}
+.btn{padding:.8rem 1.1rem;border-radius:999px;text-decoration:none;font-weight:700;display:inline-block}
+.btn-green{background:var(--cta);color:#fff}
+.btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.16)}
+.container{max-width:1100px;margin:1.2rem auto;padding:0 1rem}
+.hero{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.hero img{width:320px;height:200px;object-fit:cover;border-radius:10px}
+.section{margin-top:1rem}
+.card{background:var(--card);border-radius:10px;padding:1rem;box-shadow:0 8px 30px rgba(0,0,0,0.06)}
+h2{margin:.3rem 0 .6rem}
+.lead{color:var(--muted);margin:0 0 1rem}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem}
+.menu-item{background:#fff;border-radius:8px;padding:.6rem;text-align:left;border:1px solid rgba(0,0,0,0.04)}
+.menu-item h3{margin:.2rem 0;color:var(--primary)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.5rem}
+.gallery img{width:100%;height:110px;object-fit:cover;border-radius:8px}
+.contact dl{display:grid;gap:.35rem}
+.form-row{display:flex;gap:.6rem;flex-wrap:wrap}
+input,textarea,select{width:100%;padding:.6rem;border-radius:8px;border:1px solid #e6e6e6;font-size:.95rem}
+label{font-weight:600;font-size:.95rem;margin-bottom:.2rem;display:block}
+.small{font-size:.9rem;color:var(--muted)}
+.footer{background:var(--primary);color:#fff;padding:1rem;text-align:center;margin-top:1rem;border-top:4px solid rgba(255,255,255,0.06)}
+/* cookie */
+#cookieBanner{position:fixed;left:1rem;right:1rem;bottom:4rem;background:#fff;padding:.9rem;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,0.12);display:flex;gap:1rem;align-items:center;justify-content:space-between;z-index:999}
+#cookieBanner .text{flex:1}
+#privacyBar{position:fixed;bottom:0;left:0;right:0;background:rgba(138,43,31,0.95);color:#fff;padding:.6rem 1rem;display:flex;gap:.6rem;align-items:center;justify-content:center;z-index:998;flex-wrap:wrap}
+#privacyBar a{color:#fff;text-decoration:underline}
+@media(max-width:720px){.hero img{width:100%;height:180px}.cta-row{flex-direction:column;align-items:center}}
+</style>
+</head>
+<body>
+
+<header role="banner">
+  <div class="container">
+    <h1>Restaurante Magalhães</h1>
+    <p>Comida caseira e marmitas — Rua Boaventura, 1554 • Liberdade, Belo Horizonte</p>
+    <div class="cta-row" role="group" aria-label="Ações">
+      <!-- SUBSTITUA WA e tel -->
+      <a class="btn btn-green" href="https://wa.me/REPLACE_WHATSAPP_NUMBER" target="_blank" rel="noopener noreferrer">🍽️ Pedir pelo WhatsApp</a>
+      <a class="btn btn-outline" href="tel:+55REPLACE_TELEFONE">☎️ Ligar Agora</a>
+    </div>
+  </div>
+</header>
+
+<main class="container" role="main">
+  <section class="section hero card" aria-labelledby="intro">
+    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80" alt="Comida caseira">
+    <div>
+      <h2 id="intro">Bem-vindo ao Restaurante Magalhães</h2>
+      <p class="lead">Especialistas em comida caseira, pratos executivos e marmitas entregues com carinho para clientes de Belo Horizonte. Atendimento presencial e por retirada/delivery.</p>
+      <p class="small"><strong>Razão Social:</strong> Restaurante Magalhaes LTDA • <strong>CNPJ:</strong> 49.362.941/0001-64</p>
+    </div>
+  </section>
+
+  <section class="section card" id="cardapio">
+    <h2>Cardápio — Destaques</h2>
+    <p class="small">Alguns pratos populares — personalize com seus itens reais.</p>
+    <div class="menu-grid">
+      <div class="menu-item"><h3>Prato Executivo</h3><div class="small">Arroz, feijão, proteína do dia e salada.</div></div>
+      <div class="menu-item"><h3>Marmita Marmitex</h3><div class="small">Opção para entrega ou retirada.</div></div>
+      <div class="menu-item"><h3>Porção de Frango</h3><div class="small">Ideal para compartilhar.</div></div>
+      <div class="menu-item"><h3>Sobremesa do Dia</h3><div class="small">Doces caseiros conforme disponibilidade.</div></div>
+    </div>
+  </section>
+
+  <section class="section card" id="promos">
+    <h2>Promoções</h2>
+    <ul class="small">
+      <li>Combo executivo: prato + suco — desconto às segundas-feiras.</li>
+      <li>Pedido acima de R$ 50: entrega grátis na região da Liberdade.</li>
+    </ul>
+    <p class="small">Consulte validade das promoções pelo WhatsApp.</p>
+  </section>
+
+  <section class="section card" id="galeria">
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1604908177522-040dbb34f38e?auto=format&fit=crop&w=800&q=80" alt="Prato 1">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Ambiente">
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Marmita">
+      <img src="https://images.unsplash.com/photo-1541542684-5f0b4a8abf1e?auto=format&fit=crop&w=800&q=80" alt="Sobremesa">
+    </div>
+  </section>
+
+  <section class="section card" id="contato">
+    <h2>Contato & Localização</h2>
+    <dl class="contact">
+      <dt class="small"><strong>Endereço</strong></dt><dd>Rua Boaventura, 1554 — Loja, Liberdade, Belo Horizonte — MG, CEP 31270-310</dd>
+      <dt class="small"><strong>Telefone</strong></dt><dd><a href="tel:+55REPLACE_TELEFONE">+55 (31) REPLACE_TELEFONE</a></dd>
+      <dt class="small"><strong>E-mail</strong></dt><dd><a href="mailto:REPLACE_SEU_EMAIL@example.com">REPLACE_SEU_EMAIL@example.com</a></dd>
+      <dt class="small"><strong>Horário</strong></dt><dd>Seg-Sex 10:00–15:00 • Sáb-Dom 10:00–14:00</dd>
+    </dl>
+
+    <p style="margin-top:.6rem" class="small">Peça pelo WhatsApp ou venha nos visitar. Atendemos pronto para entrega e retirada.</p>
+
+    <div style="margin-top:.6rem">
+      <iframe style="width:100%;height:260px;border:0;border-radius:8px" loading="lazy"
+        src="https://www.google.com/maps?q=Rua%20Boaventura%201554%20Belo%20Horizonte&output=embed" title="Mapa Restaurante Magalhães"></iframe>
+    </div>
+  </section>
+
+  <section class="section card" id="reservas">
+    <h2>Faça seu pedido / Reserva</h2>
+    <p class="small">Preencha o formulário ou clique no botão do WhatsApp para abrir uma conversa.</p>
+
+    <form id="leadForm" onsubmit="return handleSubmit(event)" novalidate>
+      <div class="form-row">
+        <div style="flex:1">
+          <label for="name">Nome</label>
+          <input id="name" name="name" required placeholder="Seu nome">
+        </div>
+        <div style="width:170px">
+          <label for="phone">Telefone / WhatsApp</label>
+          <input id="phone" name="phone" type="tel" required placeholder="+55 (31) 9xxxx-xxxx">
+        </div>
+      </div>
+
+      <div style="margin-top:.6rem">
+        <label for="type">Tipo</label>
+        <select id="type" name="type">
+          <option>Pedido para retirada</option>
+          <option>Pedido para entrega</option>
+          <option>Reserva de mesa</option>
+          <option>Orçamento / Outros</option>
+        </select>
+      </div>
+
+      <div style="margin-top:.6rem">
+        <label for="message">Detalhes</label>
+        <textarea id="message" name="message" rows="4" placeholder="Data, horário, pratos desejados, endereço..."></textarea>
+      </div>
+
+      <div style="margin-top:.6rem;display:flex;gap:.5rem;align-items:center">
+        <input id="consent" name="consent" type="checkbox" required>
+        <label for="consent" class="small">Concordo em receber comunicações relacionadas ao meu pedido e li a <a href="#privacy">Política de Privacidade</a> e os <a href="#terms">Termos de Uso</a>.</label>
+      </div>
+
+      <div style="margin-top:.8rem;display:flex;gap:.5rem;flex-wrap:wrap">
+        <button class="btn btn-green" type="submit">Enviar / Abrir WhatsApp</button>
+        <a class="btn btn-outline" href="tel:+55REPLACE_TELEFONE">☎️ Ligar</a>
+      </div>
+
+      <p id="formMessage" class="small" style="margin-top:.6rem;color:var(--muted)"></p>
+    </form>
+  </section>
+
+  <section class="section card" id="terms">
+    <h2>Termos de Uso — Restaurante Magalhães</h2>
+    <p class="small"><strong>Vigência:</strong> a partir de 27/01/2023</p>
+    <h3 class="small">1. Escopo</h3>
+    <p class="small">Estes termos regulam o uso do site e os serviços (pedidos, reservas e atendimento presencial). A efetivação de pedidos e pagamentos ocorre no local ou via parceiros de entrega conforme escolhido pelo cliente.</p>
+    <h3 class="small">2. Pagamentos</h3>
+    <p class="small">Aceitamos pagamentos presenciais em dinheiro, cartão e transferência; em pedidos por parceiros de delivery, seguem-se as regras do parceiro.</p>
+  </section>
+
+  <section class="section card" id="privacy">
+    <h2>Política de Privacidade & LGPD</h2>
+    <p class="small"><strong>Controlador:</strong> Restaurante Magalhaes LTDA — CNPJ 49.362.941/0001-64</p>
+    <h3 class="small">Dados coletados</h3>
+    <p class="small">Coletamos nome, telefone, e-mail, endereço e informações de pedido para processar reservas, pedidos e emitir nota fiscal quando aplicável. Também usamos cookies funcionais e analíticos.</p>
+    <h3 class="small">Finalidade</h3>
+    <p class="small">Os dados são utilizados para confirmar pedidos/reservas, comunicação com cliente, emissão fiscal e análises internas. Titulares podem solicitar acesso/eliminação via e-mail: <a href="mailto:REPLACE_SEU_EMAIL@example.com">REPLACE_SEU_EMAIL@example.com</a>.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  © <span id="year"></span> Restaurante Magalhães LTDA • CNPJ 49.362.941/0001-64 • Rua Boaventura, 1554 — Loja — Liberdade • Belo Horizonte — MG
+</footer>
+
+<!-- cookie banner -->
+<div id="cookieBanner" style="display:none" role="dialog" aria-live="polite">
+  <div class="text">
+    <strong>Usamos cookies</strong>
+    <div class="small">Este site usa cookies para funcionalidade e análises. Leia nossa <a href="#privacy">Política de Privacidade</a>.</div>
+  </div>
+  <div style="display:flex;gap:.5rem;align-items:center">
+    <button class="btn btn-green" id="acceptCookies">Aceitar</button>
+    <button class="btn btn-outline" id="declineCookies">Recusar</button>
+  </div>
+</div>
+
+<!-- privacy bar -->
+<div id="privacyBar" role="contentinfo">
+  <span>© <span id="barYear"></span> Restaurante Magalhães —</span>
+  <a href="#privacy">Política de Privacidade</a> |
+  <a href="#terms">Termos de Uso</a> |
+  <a href="#contato">Contato</a>
+</div>
+
+<script>
+  // anos
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('barYear').textContent = new Date().getFullYear();
+
+  // cookie banner
+  (function(){
+    var key='magalhaes_cookie';
+    var banner=document.getElementById('cookieBanner');
+    if(!localStorage.getItem(key)) banner.style.display='flex';
+    document.getElementById('acceptCookies').onclick=function(){localStorage.setItem(key,'accepted'); banner.style.display='none'};
+    document.getElementById('declineCookies').onclick=function(){localStorage.setItem(key,'declined'); banner.style.display='none'};
+  })();
+
+  // form handler (abre WhatsApp com mensagem)
+  function handleSubmit(e){
+    e.preventDefault();
+    var name=document.getElementById('name').value.trim();
+    var phone=document.getElementById('phone').value.trim();
+    var type=document.getElementById('type').value;
+    var message=document.getElementById('message').value.trim();
+    var consent=document.getElementById('consent').checked;
+    var fm=document.getElementById('formMessage');
+    if(!name||!phone||!consent){ fm.textContent='Por favor preencha nome, telefone e aceite a política.'; return false; }
+    // Abra WhatsApp (SUBSTITUA REPLACE_WHATSAPP_NUMBER no href)
+    var wa='https://wa.me/REPLACE_WHATSAPP_NUMBER?text=' + encodeURIComponent('Olá, sou '+name+'. Solicito: '+type+'. Detalhes: '+message+'. Tel: '+phone);
+    window.open(wa,'_blank');
+    fm.textContent='Solicitação iniciada via WhatsApp. Entraremos em contato em breve.';
+    return false;
+  }
+</script>
+</body>
+</html>
